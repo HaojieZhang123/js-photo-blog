@@ -89,13 +89,45 @@ h1, .title{
     width: 100%;
 }
 .polaroid-text{
-    padding: 10px 0;
+    padding-top: 10px;
+}
+.title{
+    font-size: 25px;
+    font-weight: 900;
+}
+.date{
+    color: #AAA;
 }
 .pin{
     position: absolute;
     top: -10px;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+/* overlay */
+.overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/* .overlay-hidden{
+    display: none;
+}
+.overlay-active{
+    display: block;
+} */
+button{
+    padding: 5px;
+}
+#overlay-btn-container{
+    height: 10vh;
+}
+#overlay-img-container{
+    height: 90vh;
 }
 
 /* media query for responsiveness. Approach desktop first */

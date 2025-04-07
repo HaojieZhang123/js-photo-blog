@@ -16,8 +16,8 @@ const createPolaroid = (array) => {
                             <img src="${url}" alt="immagine">
                         </div>
                         <div class="polaroid-text col-100">
-                            <div class="title">${title}</div>
                             <div class="date">${date}</div>
+                            <div class="title">${title.toUpperCase()}</div>
                         </div>
                         <div class="pin">
                             <img src="./img/pin.svg" alt="pin">
