@@ -87,6 +87,7 @@ h1, .title{
 }
 .polaroid-img, .polaroid-img img{
     width: 100%;
+    cursor: pointer;
 }
 .polaroid-text{
     padding-top: 10px;
@@ -114,14 +115,16 @@ h1, .title{
     top: 0;
     left: 0;
 }
-/* .overlay-hidden{
+.overlay-hidden{
     display: none;
 }
 .overlay-active{
     display: block;
-} */
+}
 button{
     padding: 5px;
+    cursor: pointer;
+
 }
 #overlay-btn-container{
     height: 10vh;
