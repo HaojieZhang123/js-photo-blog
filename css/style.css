@@ -79,33 +79,6 @@ h1, .title{
 .col-100{
     width: 100%;
 }
-.col-90{
-    width: 90%;
-}
-.col-80{
-    width: 80%;
-}
-.col-70{
-    width: 70%;
-}
-.col-60{
-    width: 60%;
-}
-.col-50{
-    width: 50%;
-}
-.col-40{
-    width: 40%;
-}
-.col-30{
-    width: 30%;
-}
-.col-20{
-    width: 20%;
-}
-.col-10{
-    width: 10%;
-}
 
 /* page objects */
 .polaroid{
@@ -123,4 +96,24 @@ h1, .title{
     top: -10px;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+/* media query for responsiveness. Approach desktop first */
+/* tablet */
+@media screen and (max-width: 1280px){
+    h1{
+        font-size: 70px;
+    }
+    .column{
+        width: 40%;
+    }
+}
+/* mobile */
+@media screen and (max-width: 768px){
+    h1{
+        font-size: 50px;
+    }
+    .column{
+        width: 100%;
+    }
 }
