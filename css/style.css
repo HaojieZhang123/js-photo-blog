@@ -11,11 +11,11 @@ h1{
 }
 
 h1, .title{
-    font-family: 'Edu Tas Beginner';
+    font-family: 'Edu Tas Beginner', sans-serif;
 }
 
 .date{
-    font-family: 'Sometype Mono';
+    font-family: 'Sometype Mono', 'monospace';
 }
 
 /* flexbox and utilities*/
