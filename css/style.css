@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+}
+
+h1, .title{
+    font-family: 'Edu Tas Beginner';
+}
+
+.date{
+    font-family: 'Sometype Mono';
+}
+
+/* flexbox */
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-start{
+    justify-content: flex-start;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-around{
+    justify-content: space-around;
+}
+.justify-content-evenly{
+    justify-content: space-evenly;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+/* containers and layout*/
+.title-bg{
+    background-image: url(../img/wall.png);
+    padding: 20px 0;
+}
+
+.body-bg{
+    background-image: url(../img/cork.png);
+    padding: 40px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+}
+.column{
+    width: 30%;
+    margin: 20px 0;
+}
+
+.col-100{
+    width: 100%;
+}
+.col-90{
+    width: 90%;
+}
+.col-80{
+    width: 80%;
+}
+.col-70{
+    width: 70%;
+}
+.col-60{
+    width: 60%;
+}
+.col-50{
+    width: 50%;
+}
+.col-40{
+    width: 40%;
+}
+.col-30{
+    width: 30%;
+}
+.col-20{
+    width: 20%;
+}
+.col-10{
+    width: 10%;
+}
+
+/* page objects */
+.polaroid{
+    background-color: white;
+    padding: 20px;
+}
+.polaroid-img, .polaroid-img img{
+    width: 100%;
+}
+.polaroid-text{
+    padding: 10px 0;
+}
