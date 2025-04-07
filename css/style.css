@@ -137,6 +137,16 @@ button{
 #overlay-img-container img{
     max-width: 100%;
 }
+
+/* hover animation */
+.polaroid:hover{
+    transform: scale(1.05) rotate(10deg);
+    transition: 0.5s all;
+}
+.polaroid:hover .pin{
+    display: none;
+}
+
 /* media query for responsiveness. Approach desktop first */
 /* tablet */
 @media screen and (max-width: 1280px){
