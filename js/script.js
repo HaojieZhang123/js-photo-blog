@@ -40,6 +40,12 @@ const createPolaroid = (array) => {
     return element
 }
 
+// function to create the correct image to display in overlay
+const correctImage = (url) => {
+    let element = `<img src="${url}" alt="">`
+    overlayImage.innerHTML = element;
+}
+
 // clicking overlay button will add overlay-hidden on overlay
 button.addEventListener('click', (e) => {
     e.preventDefault;
@@ -67,6 +73,25 @@ axios.get(endpoint)
             image.addEventListener('click', (e) => {
                 overlay.classList.remove('overlay-hidden')
                 overlay.classList.add('overlay-active')
+
+                if(image.classList.contains(1)){
+                    correctImage(images[0].url);
+                }
+                else if(image.classList.contains(2)){
+                    correctImage(images[1].url);
+                }
+                else if(image.classList.contains(3)){
+                    correctImage(images[2].url);
+                }
+                else if(image.classList.contains(4)){
+                    correctImage(images[3].url);
+                }
+                else if(image.classList.contains(5)){
+                    correctImage(images[4].url);
+                }
+                else{
+                    correctImage(images[5].url);
+                }
             })
         });
         
