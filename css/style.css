@@ -18,7 +18,7 @@ h1, .title{
     font-family: 'Sometype Mono';
 }
 
-/* flexbox */
+/* flexbox and utilities*/
 .d-flex{
     display: flex;
 }
@@ -49,6 +49,9 @@ h1, .title{
     align-items: center;
 }
 
+.position-relative{
+    position: relative;
+}
 /* containers and layout*/
 .title-bg{
     background-image: url(../img/wall.png);
@@ -113,4 +116,10 @@ h1, .title{
 }
 .polaroid-text{
     padding: 10px 0;
+}
+.pin{
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
