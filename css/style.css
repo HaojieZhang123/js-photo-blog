@@ -123,25 +123,26 @@ h1, .title{
     display: block;
 }
 button{
-    padding: 5px;
+    font-size: 25px;
+    padding: 10px;
     cursor: pointer;
 
 }
 #overlay-btn-container{
-    height: 10vh;
+    padding: 20px 0;
 }
 #overlay-img-container{
-    height: 90vh;
-    padding: 0 20px;
+    padding: 20px;
 }
 #overlay-img-container img{
-    max-width: 100%;
+    width: 600px;
 }
 
 /* hover animation */
 .polaroid:hover{
     transform: scale(1.1) rotate(10deg);
     transition: 0.5s all;
+    z-index: 1;
 }
 .polaroid:hover .pin{
     display: none;
